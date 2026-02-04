@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jetour Indonesia | Dashing • X70 • T2</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+    }
+
+    body {
+      background: #f4f6f8;
+      color: #222;
+    }
+
+    header {
+      background: linear-gradient(135deg, #000, #1a1a1a);
+      color: white;
+      padding: 90px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 44px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      opacity: 0.9;
+      font-size: 18px;
+    }
+
+    section {
+      max-width: 1200px;
+      margin: auto;
+      padding: 70px 20px;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 32px;
+      margin-bottom: 45px;
+    }
+
+    .cars {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .card-body {
+      padding: 22px;
+    }
+
+    .card-body h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .card-body p {
+      color: #555;
+      margin-bottom: 15px;
+      font-size: 15px;
+    }
+
+    .price {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 18px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #000;
+      color: white;
+      padding: 11px 22px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .btn:hover {
+      background: #333;
+    }
+
+    .cta {
+      background: #000;
+      color: white;
+      text-align: center;
+      padding: 70px 20px;
+    }
+
+    .cta h2 {
+      font-size: 34px;
+      margin-bottom: 12px;
+    }
+
+    footer {
+      background: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 22px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>JETOUR INDONESIA</h1>
+  <p>SUV Premium • Nyaman • Tangguh</p>
+</header>
+
+<section>
+  <h2 class="title">Pilihan Mobil Jetour</h2>
+
+  <div class="cars">
+
+    <!-- DASHING -->
+    <div class="card">
+      <img src="images/dashing.jpg" alt="Jetour Dashing">
+      <div class="card-body">
+        <h3>Jetour Dashing</h3>
+        <p>Desain futuristik, teknologi modern, cocok untuk gaya hidup aktif.</p>
+        <div class="price">Rp 345,8 Juta</div>
+        <a href="#" class="btn">Hubungi Sales</a>
+      </div>
+    </div>
+
+    <!-- X70 -->
+    <div class="card">
+      <img src="images/x70.jpg" alt="Jetour X70">
+      <div class="card-body">
+        <h3>Jetour X70</h3>
+        <p>SUV keluarga luas dengan kenyamanan maksimal.</p>
+        <div class="price">Rp 389 Juta</div>
+        <a href="#" class="btn">Hubungi Sales</a>
+      </div>
+    </div>
+
+    <!-- T2 -->
+    <div class="card">
+      <img src="images/t2.jpg" alt="Jetour T2">
+      <div class="card-body">
+        <h3>Jetour T2</h3>
+        <p>SUV off-road premium, tangguh di segala medan.</p>
+        <div class="price">Rp 568 Juta</div>
+        <a href="#" class="btn">Hubungi Sales</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="cta">
+  <h2>Siap Test Drive Jetour?</h2>
+  <p>Hubungi kami sekarang dan dapatkan promo terbaik</p>
+  <a href="#" class="btn">WhatsApp Sales</a>
+</section>
+
+<footer>
+  © 2026 Jetour Indonesia • Website Promo
+</footer>
+
+</body>
+</html>
